@@ -1,0 +1,161 @@
+cv:
+  name: Leopold Haller
+  location: Berkeley, California
+  email: leopoldhaller@gmail.com
+  phone: tel:+1 (510) 292-1849
+  social_networks:
+    - network: LinkedIn
+      username: leopoldhaller
+    - network: GitHub
+      username: lcrh
+  sections:
+    summary:
+      - I am a **research engineer** and **technical leader** with 10+ years of
+        professional experience in software engineering, ML engineering and 
+        research. I am seeking a challenging IC role on the cutting-edge of
+        AI research or product development as part of a capable team.  My
+        academic background is in automated reasoning and static analysis, and I
+        am particularly interested in the intersection of **machine learning**,
+        **automated reasoning** and **program search**.
+      - "**Key skills**: ML, RL, generative AI  agents, software engineering,
+        greenfield AI product development,
+        automated reasoning, SAT/SMT, formal verification, theorem proving."
+
+    experience:
+      - company: Agentic
+        position: Cofounder & Chief Research Officer
+        location: San Francisco, CA
+        start_date: 2021-06
+        end_date: 2024-12
+        highlights:
+          - Led research team of 3 on **interactive training of video game AI** for game testing.
+          - Developed novel techniques in imitation learning and RL to build a product that allows
+            ML-naive game developers to train useful agents on interactive time-scales.
+          - Initiated a company pivot from ML to Voyager-style **LLM-based code generation**
+            for video game AI ([GDC trailer](https://www.youtube.com/watch?v=_sRZOqF9MgM)),
+            owning the project from prototype through deployment.
+          - Developed an open-source framework for generative software,
+            **enact** ([github]((https://github.com/agentic-ai/enact)) to serve as
+            the basis of our agents stack.
+          - Key contributor to all aspects of development, including backend infrastructure,
+            research, UX and product.
+      - company: Google
+        position: Senior Software Engineer
+        location: San Francisco, CA
+        start_date: 2015-05
+        end_date: 2021-06
+        highlights:
+          - "**Google Brain** - *Kernel Product Incubator* (2019): 
+            Core contributor on **ML-driven video game agents**. Designed and
+            developed DAgger-style training methodology and built initial
+            service architecture for **continuous live training**.
+            ([patent](https://patents.google.com/patent/WO2023043493A1), [OSS
+            repo](https://github.com/google-research/falken))"
+          - "**Area120** - *Chatbase* (2017): Trained early **LLMs** (BERT) for chat
+            applications. My work was central to our team securing the first
+            **successful exit** from the Area120 incubator program. Rebuilt
+            live data-analytics backend of our chat telemetry platform."
+          - "**Security & Privacy** (2015): Developed large-scale **static code
+            analyses** for detecting privacy concerns."
+      - company: Cadence Design Systems
+        position: Member of Consulting Staff
+        location: Berkeley, CA
+        start_date: 2012-12
+        end_date: 2015-05
+        highlights:
+          - Developed SAT/SMT-based algorithms for **formal verification** of hardware designs. 
+      - company: Microsoft
+        position: Research Intern
+        location: Cambridge, UK
+        start_date: 2009-05
+        end_date: 2009-08
+        highlights:
+          - "Developed FPGA-based constraint propagation accelerator for SAT solving."
+    education:
+      - institution: University of Oxford
+        area: Computer Science, Formal Verification, SAT Solving
+        degree: PhD
+        start_date: 2008
+        end_date: 2013
+        highlights: 
+        - "[14 conference & journal publications](https://shorturl.at/lz6bS) in formal methods"
+      - institution: Vienna University of Technology 
+        area:  Computational Intelligence
+        degree: MSc
+        start_date: 2006
+        end_date: 2008
+      - institution: Johannes Kepler University Linz
+        area: Computer Science
+        degree: BSc
+        start_date: 2003
+        end_date: 2006
+    advisorships:
+      - company: Newlife.ai
+        position: Advisor
+        start_date: 2024-05
+        highlights:
+          - "Advising on blockchain protocols for distributed AI agents."
+      - company: Standard Deviants
+        position: Advisor
+        start_date: 2023-03
+        highlights:
+          - "Advising on generative AI for interactive story-telling."
+    technologies:
+      - label: Main languages & Frameworks
+        details: Python, C++, tf, tflite, jax, numpy, pandas, Lean, Go
+      - label: Tech
+        details: gcloud, kubernetes, postgres, spanner, dremel/bigquery, grpc, protobuf
+    OSS_projects:
+      - name: enact - A framework for generative software.
+        date: '[github/agentic-ai](https://github.com/agentic-ai/enact)'
+        highlights:
+          - "Framework for managing execution of scaffolding programs: telemetry, serialization, record / replay."
+          - "Example: Generic MCTS implementation for scaffolding programs [(notebook)](https://github.com/agentic-ai/enact/blob/main/examples/interactive_mcts.ipynb)"
+      - name: "threaded-async"
+        date: '[github/agentic-ai](https://github.com/agentic-ai/threaded_async)'
+        highlights:
+          - "Helper library used internally at agentic to coordinate asynchronous
+          AI-generated python code with game engines via a task system."
+      - name: "Falken"
+        highlights: 
+          - "Python service & C++ SDK for DAgger-style training of video game AI, built as part of a Google team."
+        date: '[github/google-research](https://github.com/google-research/falken)'
+
+design:
+  theme: engineeringresumes
+  #font: Source Sans 3
+  font_size: 10pt
+  page_size: letterpaper
+  color: '#004f90'
+  disable_external_link_icons: false
+  disable_page_numbering: false
+  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  disable_last_updated_date: false
+  last_updated_date_style: Last updated in TODAY
+  header_font_size: 30 pt
+  text_alignment: justified
+  seperator_between_connections: ''
+  use_icons_for_connections: true
+  margins:
+    page:
+      top: 2 cm
+      bottom: 2 cm
+      left: 2 cm
+      right: 2 cm
+    section_title:
+      top: 0.3 cm
+      bottom: 0.2 cm
+    entry_area:
+      left_and_right: 0.2 cm
+      vertical_between: 0.2 cm
+      date_and_location_width: 4.5 cm
+      # education_degree_width: 1 cm
+    highlights_area:
+      top: 0.10 cm
+      left: 0.4 cm
+      vertical_between_bullet_points: 0.10 cm
+    header:
+      vertical_between_name_and_connections: 0.3 cm
+      bottom: 0.3 cm
+      horizontal_between_connections: 0.5 cm
+  # show_timespan_in: []
