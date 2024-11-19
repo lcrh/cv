@@ -73,7 +73,7 @@ cv:
           - "Developed FPGA-based constraint propagation accelerator for SAT solving."
     education:
       - institution: University of Oxford
-        area: Computer Science, Formal Verification, SAT Solving
+        area: Computer Science, Formal Methods ([dissertation](https://github.com/lcrh/abstract_satisfaction/blob/main/abstract_satisfaction.pdf))
         degree: PhD
         start_date: 2008
         end_date: 2013
