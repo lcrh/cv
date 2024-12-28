@@ -12,14 +12,14 @@ cv:
     summary:
       - I am a **research engineer** and **technical leader** with 10+ years of
         professional experience in software engineering, ML engineering and 
-        research. I am seeking a challenging IC role on the cutting-edge of
-        AI research or product development as part of a capable team.  My
-        academic background is in automated reasoning and static analysis, and I
-        am particularly interested in the intersection of **machine learning**,
-        **automated reasoning** and **program search**.
-      - "**Key skills**: ML, RL, generative AI  agents, software engineering,
-        greenfield AI product development,
-        automated reasoning, SAT/SMT, formal verification, theorem proving."
+        research. With a foundation in automated reasoning and formal verification, 
+        and recent work in generative AI and program synthesis, I am
+        particularly interested in exploring the intersection of these fields.
+        Seeking a challenging IC role on the cutting-edge of AI research or
+        product development as part of a capable team. 
+      - "**Key skills**: ML, RL, generative AI agents, software engineering,
+         greenfield AI product development, automated reasoning, SAT/SMT, formal
+         verification, theorem proving."
 
     experience:
       - company: Agentic
@@ -28,17 +28,19 @@ cv:
         start_date: 2021-06
         end_date: 2024-12
         highlights:
-          - Led research team of 3 on **interactive training of video game AI** for game testing.
-          - Developed novel techniques in imitation learning and RL to build a product that allows
-            ML-naive game developers to train useful agents on interactive time-scales.
+          - Led **technical direction** for research team of 3, developing novel
+            approaches to interactive training of **video game AI for game testing**.
+          - Pioneered novel techniques in **imitation learning and RL** to enable
+            ML-naive game developers to train useful agents within interactive
+            time-scales.
           - Initiated a company pivot from ML to Voyager-style **LLM-based code generation**
             for video game AI ([GDC trailer](https://www.youtube.com/watch?v=_sRZOqF9MgM)),
             owning the project from prototype through deployment.
-          - Developed an open-source framework for generative software,
-            **enact** ([github]((https://github.com/agentic-ai/enact)) to serve as
-            the basis of our agents stack.
+          - "Developed an **open-source framework for generative software**,
+            enact ([github]((https://github.com/agentic-ai/enact)) to serve as
+            the basis of our agents stack."
           - Key contributor to all aspects of development, including backend infrastructure,
-            research, UX and product.
+            research, UX, product, hiring.
       - company: Google
         position: Senior Software Engineer
         location: San Francisco, CA
@@ -46,31 +48,34 @@ cv:
         end_date: 2021-06
         highlights:
           - "**Google Brain** - *Kernel Product Incubator* (2019): 
-            Core contributor on **ML-driven video game agents**. Designed and
-            developed DAgger-style training methodology and built initial
-            service architecture for **continuous live training**.
+            Core contributor on ML-driven video game agents, designing and
+            implementing DAgger-style training methodology that became the
+            foundation for **continuous live training** architecture
             ([patent](https://patents.google.com/patent/WO2023043493A1), [OSS
-            repo](https://github.com/google-research/falken))"
-          - "**Area120** - *Chatbase* (2017): Trained early **LLMs** (BERT) for chat
-            applications. My work was central to our team securing the first
-            **successful exit** from the Area120 incubator program. Rebuilt
-            live data-analytics backend of our chat telemetry platform."
-          - "**Security & Privacy** (2015): Developed large-scale **static code
-            analyses** for detecting privacy concerns."
+            repo](https://github.com/google-research/falken))."
+          - "**Area120** - *Chatbase* (2017): Fine-tuned early **LLMs** (BERT) 
+             for intent detection in chat applications. This work was key to
+             securing a major enterprise deal and the first **successful exit**
+             from the Area120 incubator program. Architected high-throughput
+             data-analytics backend for our chat telemetry platform." 
+          - "**Security & Privacy** (2015): Developed **static code analyses**
+            for detecting privacy concerns at Google scale."
       - company: Cadence Design Systems
         position: Member of Consulting Staff
         location: Berkeley, CA
         start_date: 2012-12
         end_date: 2015-05
         highlights:
-          - Developed SAT/SMT-based algorithms for **formal verification** of hardware designs. 
+          - Developed SAT/SMT-based algorithms for formal verification of
+            hardware designs, substantially reducing verification times
+            for customers through sophisticated portfolio-based approaches.
       - company: Microsoft
         position: Research Intern
         location: Cambridge, UK
         start_date: 2009-05
         end_date: 2009-08
         highlights:
-          - "Developed FPGA-based constraint propagation accelerator for SAT solving."
+          - "Developed FPGA-based accelerator for SAT solving via novel dual-channel RAM clause encoding."
     education:
       - institution: University of Oxford
         area: Computer Science, Formal Methods ([dissertation](https://github.com/lcrh/abstract_satisfaction/blob/main/abstract_satisfaction.pdf))
@@ -78,7 +83,7 @@ cv:
         start_date: 2008
         end_date: 2013
         highlights: 
-        - "[14 conference & journal publications](https://shorturl.at/lz6bS) in formal methods"
+        - "[14 conference & journal publications](https://shorturl.at/lz6bS) in formal methods."
       - institution: Vienna University of Technology 
         area:  Computational Intelligence
         degree: MSc
@@ -90,19 +95,26 @@ cv:
         start_date: 2003
         end_date: 2006
     advisorships:
+      - company: Agentic
+        position: Advisor
+        start_date: 2024-12
+        highlights:
+          - "Transitioned from Co-Founder / CRO into advisorship role."
       - company: Newlife.ai
         position: Advisor
         start_date: 2024-05
         highlights:
-          - "Advising on blockchain protocols for distributed AI agents."
+          - "Blockchain-based project around protocolizing GenAI and agents: advising 
+             on protocol design, requirements of AI community, strategic direction."
       - company: Standard Deviants
         position: Advisor
         start_date: 2023-03
         highlights:
-          - "Advising on generative AI for interactive story-telling."
+          - "GenAI for interative story-telling: advising on technical team composition, 
+             scriptable story-engine, image gen approaches with character and style consistency."
     technologies:
-      - label: Main languages & Frameworks
-        details: Python, C++, tf, tflite, jax, numpy, pandas, Lean, Go
+      - label: Languages & Frameworks
+        details: "*Primary:* python, C++, tf, tflite, numpy; *Secondary:* jax, pandas, pytorch, lean, go, ocaml, lua, C, VHDL, etc."
       - label: Tech
         details: gcloud, kubernetes, postgres, spanner, dremel/bigquery, grpc, protobuf
     OSS_projects:
@@ -129,9 +141,9 @@ design:
   color: '#004f90'
   disable_external_link_icons: false
   disable_page_numbering: false
-  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  # page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
   disable_last_updated_date: false
-  last_updated_date_style: Last updated in TODAY
+  # last_updated_date_style: Last updated in TODAY
   header_font_size: 30 pt
   text_alignment: justified
   seperator_between_connections: ''
