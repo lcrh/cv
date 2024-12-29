@@ -54,10 +54,11 @@ cv:
             ([patent](https://patents.google.com/patent/WO2023043493A1), [OSS
             repo](https://github.com/google-research/falken))."
           - "**Area120** - *Chatbase* (2017): Fine-tuned early **LLMs** (BERT) 
-             for intent detection in chat applications. This work was key to
-             securing a major enterprise deal and the first **successful exit**
-             from the Area120 incubator program. Architected high-throughput
-             data-analytics backend for our chat telemetry platform." 
+             for intent detection in chat applications. My work helped secure a 
+             9 figure enterprise deal and the first **successful exit ($100M
+             internal valuation)** from the Area120 incubator program.
+             Architected high-throughput data-analytics backend for our chat
+             telemetry platform." 
           - "**Security & Privacy** (2015): Developed **static code analyses**
             for detecting privacy concerns at Google scale."
       - company: Cadence Design Systems
@@ -68,7 +69,7 @@ cv:
         highlights:
           - Developed SAT/SMT-based algorithms for formal verification of
             hardware designs, substantially reducing verification times
-            for customers through sophisticated portfolio-based approaches.
+            for customers through portfolio-based approaches.
       - company: Microsoft
         position: Research Intern
         location: Cambridge, UK
